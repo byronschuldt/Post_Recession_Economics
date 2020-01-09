@@ -9,3 +9,6 @@ margin of error. Nothing has been modified in this csv since download.
 WI_RAC_2010_wACS_09_13.csv:
 This is a merged csv (product of Agg_ACS_Join_Scratch as of 1/8/2020. This is based on the 2010 RAC file for Wisconsin, and the 2009-2013 ACS for Wisconsin
 The later was downloaded from the CO demography office, and is represented by the WI_ACS_popluation.csv in this folder.
+
+Agg_ACS_Join_Clean.ipynb:
+Includes a function to automate aggregation of LEHD tables to block group level, prep ACS data table for merge, then merge the two based on common blk grp geocode.
